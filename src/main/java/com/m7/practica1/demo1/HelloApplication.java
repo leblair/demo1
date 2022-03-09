@@ -94,23 +94,23 @@ public class HelloApplication extends Application {
         return anchorpane;
     }
 
-    public  void main(String[] args) {
-        launch(HelloApplication.class, args);
-
+//    public  void main(String[] args) {
+//        launch(HelloApplication.class, args);
 //
-//        launch();
-//
-//        BorderPane border = new BorderPane();
-//        HBox hbox = addHBox();
-//        border.setTop(hbox);
-//        border.setLeft(addVBox());
-//        addStackPane(hbox);         // Add stack to HBox in top region
-//
-//        border.setCenter(addGridPane());
-//        border.setRight(addFlowPane());
-//
-//        border.setBottom(node);
-    }
+////
+////        launch();
+////
+////        BorderPane border = new BorderPane();
+////        HBox hbox = addHBox();
+////        border.setTop(hbox);
+////        border.setLeft(addVBox());
+////        addStackPane(hbox);         // Add stack to HBox in top region
+////
+////        border.setCenter(addGridPane());
+////        border.setRight(addFlowPane());
+////
+////        border.setBottom(node);
+//    }
     private  FlowPane addFlowPane() {
 
         FlowPane flow = new FlowPane();
